@@ -45,7 +45,7 @@ function Hero() {
       id="home"
       className="relative h-screen w-full bg-cover bg-center bg-fixed overflow-hidden"
       style={{
-        backgroundImage: "url('./src/images/home.png')", // public/images/home.png
+        backgroundImage: "url('/images/home.png')", // public/images/home.png
       }}
     >
       <Header />
